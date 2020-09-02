@@ -42,5 +42,5 @@ def scrapGames(url):
         downloadGame(game_url, name)
 
 if __name__ == "__main__": 
-    for i in range(1, 103):
+    for i in range(1, 104):
         scrapGames(SEARCH_URL + str(i))
